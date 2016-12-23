@@ -1,5 +1,5 @@
 {
-  "name": "angular/rails app",
+  "name": "angular2",
   "version": "1.0.0",
   "description": "Angular 2 App with Rails Apps and Microservice Architecture",
   "scripts": {
