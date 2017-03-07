@@ -4,7 +4,8 @@ import { Proposal } from './proposal';
 @Component({
 	moduleId: module.id,
 	selector: 'proposal-list',
-	templateUrl: 'proposal-list.component.html'
+	templateUrl: 'proposal-list.component.html',
+	styleUrls: ['proposal-list.component.css']
 })
 export class ProposalListComponent {
 	proposalOne: Proposal = new Proposal(1, 'A Company', 'http://espn.com', 'Ruby on Rails', 100, 100, 10, 'treyfletcher612@gmail.com')
